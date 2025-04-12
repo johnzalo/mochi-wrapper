@@ -1,6 +1,6 @@
-# pymochi  Mochi API Wrapper
+# pymochi  
 
-# convenient little python wrapper to interact with the mochi rest api
+## convenient little python wrapper to interact with the mochi rest api
 
 ## Features
 
