@@ -102,16 +102,3 @@ child_objects = learning_deck.get_children(names_only=False) # Get full Deck obj
 if child_objects:
     print(f"First child object ID: {child_objects[0].id}")
 
-# --- Deleting a Deck (Use with caution!) ---
-
-# To delete the 'Intermediate Python' deck:
-# try:
-#     # Option 1: Using the client and the ID
-#     # client.delete_deck(python_deck.id)
-#
-#     # Option 2: Using the deck object directly
-#     # python_deck.delete()
-#
-#     print(f"Deck deleted.")
-# except MochiAPIError as e:
-#     print(f"Failed to delete deck: {e}")
